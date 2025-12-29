@@ -194,5 +194,18 @@ namespace HMS_Solution
             ALLServices aLLServices = new ALLServices();
             aLLServices.Show();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            
+            Dashboard dashboard = new Dashboard();
+            dashboard.ShowDialog();
+        }
+
+        private void dashboardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Dashboard dashboard = new Dashboard();
+            dashboard.Show();
+        }
     }
 }

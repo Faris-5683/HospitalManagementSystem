@@ -121,6 +121,73 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="patientsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="patientsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="doctorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="doctorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Doctor</value>
+  </data>
+  <data name="appointmentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 20</value>
+  </data>
+  <data name="appointmentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="billingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="billingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Billing</value>
+  </data>
+  <data name="usersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="usersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="servicesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="servicesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="dashboardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="dashboardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="addPatient.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
   </data>
@@ -151,12 +218,6 @@
   <data name="viewAllPatients.Text" xml:space="preserve">
     <value>All Patients</value>
   </data>
-  <data name="patientsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 20</value>
-  </data>
-  <data name="patientsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Patient</value>
-  </data>
   <data name="addDoctor.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 22</value>
   </data>
@@ -186,12 +247,6 @@
   </data>
   <data name="viewAllDoctors.Text" xml:space="preserve">
     <value>All Doctors</value>
-  </data>
-  <data name="doctorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 20</value>
-  </data>
-  <data name="doctorToolStripMenuItem.Text" xml:space="preserve">
-    <value>Doctor</value>
   </data>
   <data name="addAppointment.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 22</value>
@@ -229,126 +284,77 @@
   <data name="searchByDateRangeToolStripMenuItem.Text" xml:space="preserve">
     <value>Search by</value>
   </data>
-  <data name="appointmentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 20</value>
-  </data>
-  <data name="appointmentToolStripMenuItem.Text" xml:space="preserve">
-    <value>Appointment</value>
-  </data>
   <data name="addBill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="addBill.Text" xml:space="preserve">
     <value>Create</value>
   </data>
   <data name="viewBill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="viewBill.Text" xml:space="preserve">
     <value>View</value>
   </data>
   <data name="viewAllBills.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="viewAllBills.Text" xml:space="preserve">
     <value>All Bills</value>
   </data>
-  <data name="billingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 20</value>
-  </data>
-  <data name="billingToolStripMenuItem.Text" xml:space="preserve">
-    <value>Billing</value>
-  </data>
   <data name="addUser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="addUser.Text" xml:space="preserve">
     <value>Add</value>
   </data>
   <data name="updateUsers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="updateUsers.Text" xml:space="preserve">
     <value>Update</value>
   </data>
   <data name="deleteUsers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="deleteUsers.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
   <data name="viewUsers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="viewUsers.Text" xml:space="preserve">
     <value>View</value>
   </data>
   <data name="viewAllUsers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="viewAllUsers.Text" xml:space="preserve">
     <value>All Users</value>
   </data>
-  <data name="usersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 20</value>
-  </data>
-  <data name="usersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Users</value>
-  </data>
   <data name="addServicesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="addServicesToolStripMenuItem.Text" xml:space="preserve">
     <value>Add</value>
   </data>
   <data name="updateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="updateToolStripMenuItem.Text" xml:space="preserve">
     <value>Update</value>
   </data>
   <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
   <data name="allToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="allToolStripMenuItem.Text" xml:space="preserve">
     <value>All Services</value>
-  </data>
-  <data name="servicesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="servicesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Services</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -568,6 +574,12 @@
     <value>allToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;allToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dashboardToolStripMenuItem.Name" xml:space="preserve">
+    <value>dashboardToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dashboardToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
