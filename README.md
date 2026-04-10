@@ -1,71 +1,77 @@
-**HMS (Hospital Management System)**
+# 🏥 HMS — Hospital Management System
 
-HMS is a desktop-based Hospital Management System built with C# .NET 4.8 WinForms and SQL Server LocalDB. It allows hospital staff to efficiently manage patients, doctors, users, appointments, and billing.
+A **desktop-based Hospital Management System** built with **C# .NET 4.8 WinForms** and **SQL Server LocalDB**. Designed for hospital staff to efficiently manage day-to-day operations including patients, doctors, appointments, and billing.
 
-**Features**
+---
 
-Patients, Doctors, Users, Appointments: Add, update, delete, view, and view all.
+## 🛠️ Tech Stack
 
-Appointments: Search by a specific day or a date range.
+- **C# .NET Framework 4.8** — WinForms desktop application
+- **SQL Server LocalDB 2022** — Local database
+- **LINQ-to-SQL** — Data access and queries
+- **PDFsharp / MigraDoc 6.2.3** — PDF bill generation
 
-Bills: Create, view, and view all bills. Bills cannot be deleted.
+---
 
-PDF Generation: Generate PDF bills using PDFsharp/MigraDoc.
+## ✨ Features
 
-Attachments: Attach files (e.g., X-rays, reports) while updating patients, and view attached files when viewing patients.
+- 👤 **Patients** — Add, update, delete, and view patient records with file attachments (X-rays, reports)
+- 🩺 **Doctors** — Full CRUD management for doctor profiles
+- 👥 **Users** — Manage hospital staff accounts
+- 📅 **Appointments** — Schedule and manage appointments, search by specific date or date range
+- 🧾 **Billing** — Create and view bills. Bills cannot be deleted to preserve financial records
+- 📄 **PDF Generation** — Generate and export professional PDF bills
+- 📎 **File Attachments** — Attach and view patient documents directly within the app
 
-**Technologies Used**
+---
 
-C# .NET Framework 4.8 (WinForms)
+## 🚀 Installation
 
-SQL Server LocalDB 2022
+### 1. Install SQL Server LocalDB 2022
+Download and install from [Microsoft's official site](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb) if not already installed.
 
-LINQ-to-SQL
+### 2. Setup LocalDB
+Open **Command Prompt** and run these commands one by one:
 
-PDFsharp / MigraDoc 6.2.3
-
-**Installation**
-
-Install SQL Server LocalDB 2022
-Download and install from Microsoft’s official site if not already installed.
-
-**Setup LocalDB**
-
-Open Command Prompt and run one by one:
-
+```bash
 sqllocaldb stop MSSQLLocalDB
-
 sqllocaldb delete MSSQLLocalDB
-
 sqllocaldb create MSSQLLocalDB
-
 sqllocaldb start MSSQLLocalDB
+```
 
+### 3. Database Setup
+Place the `HMS.sql` file in the same folder as the executable:
 
-**Database Setup**
-
-Place the HMS.sql file in the same folder as the executable:
-
+```
 bin/Debug/HMS.exe
-
-
-or
-
+# or
 bin/Release/HMS.exe
+```
 
+### 4. Run the Application
+Open `HMS.exe` and start managing the hospital.
 
+---
 
-Run the Application
-Open HMS.exe and start managing the hospital.
+## 🔐 Default Credentials
 
-**Usage**
+| Field | Value |
+|---|---|
+| Username | `test` |
+| Password | `Test@123` |
 
-Default username/password: test / Test@123
+---
 
-Navigate through the tabs to manage patients, doctors, users, appointments, and bills.
+## 📖 Usage
 
-Attach files when updating patient records.
+- Navigate through the tabs to manage **Patients, Doctors, Users, Appointments, and Bills**
+- **Attach files** (X-rays, lab reports) when updating patient records
+- **Generate PDF bills** directly from the bill view
+- **Search appointments** by a specific date or a custom date range
 
-Generate PDFs when viewing bills.
+---
 
-Search appointments by specific dates or date ranges.
+## 👤 Author
+
+**Muhammad Faris Khan** — [@MFaris-khan](https://github.com/MFaris-khan)
