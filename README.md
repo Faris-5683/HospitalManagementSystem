@@ -109,4 +109,4 @@ Open `HMS.exe` and start managing the hospital.
 
 ## 👤 Author
 
-**Muhammad Faris Khan** — [@MFaris-khan](https://github.com/MFaris-khan)
+**Muhammad Faris Khan** — [@Faris-5683](https://github.com/Faris-5683)
